@@ -1,0 +1,9 @@
+name: 'Keyword Releaser 666'
+description: 'Creates releases based on a keyword'
+runs:
+   using: 'docker'
+   image: 'Dockerfile'
+branding:
+   # https://feathericons.com
+   icon: 'gift'
+   color: 'blue'
