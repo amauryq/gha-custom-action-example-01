@@ -32,7 +32,6 @@ then
 
     if [[ "${LOCAL_TEST}" == *"true"* ]];
     then
-        echo "DATA>> $DATA"
         echo "## [TESTING] Keyword was found but no release was created."
     else
         echo $DATA | http POST $URL | jq .
